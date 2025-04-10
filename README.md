@@ -9,7 +9,7 @@ This project implements a text classification system using LLM agents with diffe
 ├── config.yaml                # Configuration file defining agents and label schema
 ├── evaluate_system.py         # Evaluation pipeline for model performance
 ├── generate_dataset.py        # Script for building synthetic datasets
-├── app.py                     # Streamlit app to run classifications
+├── utils.py                   # 
 ├── requirements.txt           # Python dependencies for the project
 ├── README.md                  # This file
 ```
