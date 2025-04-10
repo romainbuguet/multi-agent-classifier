@@ -5,7 +5,7 @@ This project implements a text classification system using LLM agents with diffe
 ## Project Structure
 
 ```
-├── classifier.py              # Core logic for multi-agent classification
+├── classify.py                # Core logic for multi-agent classification
 ├── config.yaml                # Configuration file defining agents and label schema
 ├── evaluate_system.py         # Evaluation pipeline for model performance
 ├── generate_dataset.py        # Script for building synthetic datasets
