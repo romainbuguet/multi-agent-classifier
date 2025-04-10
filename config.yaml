@@ -1,0 +1,20 @@
+categories:
+- label: constructive
+  description: >
+    The review includes useful, actionable feedback or specific suggestions for improvement.
+    The tone is respectful, even if critical, and the goal appears to be helping or improving.
+- label: unconstructive
+  description: >
+    The review expresses dissatisfaction without offering helpful details or suggestions.
+    It may be vague, aggressive, or just venting frustration without a clear path to improvement.
+
+agents:
+  - name: critic
+    style: >
+      Look for signs of venting, blaming, or emotional outbursts. Highlight parts that make the review unhelpful.
+  - name: analyst
+    style: >
+      Analyze the structure and content. Is the feedback actionable? Are there specific points or just vague complaints?
+  - name: customer
+    style: >
+      Imagine you're a customer trying to help the business improve. Would this feedback help them know what to fix?
